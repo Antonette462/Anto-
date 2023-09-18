@@ -1,0 +1,68 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+nav{
+    background-color: blue;
+    box-shadow: 0 0.5rem 0.5rem red;
+
+}
+nav h1{
+    color: white;
+    margin-left: 30px;
+    display: inline-block;
+
+}
+nav ul{
+    float: right;
+    margin-top: 25px;
+}
+ul li {
+    display: inline-block;
+    margin-right: 30px;
+    text-transform: capitalize;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    transition: ease-in 1s;
+
+}
+ul li a:hover{
+    color: yellow;
+    box-shadow: 0 0.5rem 0.5rem white;
+    padding: 5px;
+}
+.anto{
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    margin-left: 200px;
+}
+.form{
+    margin-top: 40px;
+    width: 500px;
+    min-height: 300px;
+    margin: auto;
+    border: 2px solid blue;
+    text-align: center;
+    background-color: blue;
+    
+    
+}
+.form input{
+    margin: 10px;
+    padding: 10px;
+    background: none;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+}
+footer{
+     background-color: black;
+     color: white;
+     text-align: center;
+     font-size: 16px;
+     margin-top: 30px;
+}
